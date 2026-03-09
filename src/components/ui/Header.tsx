@@ -1,19 +1,13 @@
 "use client"
 
-import { useState, useContext } from "react"
+import { useState } from "react"
 import Image from "next/image"
-import LanguageContext from "@/context/LanguageContext"
+import useLanguage from "@/hooks/useLanguage"
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false)
 
-  const context = useContext(LanguageContext)
-
-  if(!context) {
-    throw new Error("LanguageContext no está disponible")
-  }
-
-  const { language, setLanguage } = context
+  const { language, setLanguage } = useLanguage()
 
   return (
     <header
