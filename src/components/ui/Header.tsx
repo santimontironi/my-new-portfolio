@@ -23,8 +23,8 @@ const Header = () => {
       <div className="max-w-screen-2xl mx-auto px-4 md:px-8 xl:px-14 2xl:px-20">
         <div className="flex items-center justify-between h-23 md:h-18 xl:h-24 2xl:h-28">
 
-          <a href="#inicio" className="group flex items-center gap-2 no-underline">
-            <Image src="/images/logo.png" alt="Logo" width={80} height={80} />
+          <a href="#inicio" className="flex items-center gap-2 no-underline mt-3">
+            <Image src="/images/logoWeb.png" alt="Logo" width={100} height={100} priority/>
           </a>
 
           <nav className="hidden md:flex items-center">
