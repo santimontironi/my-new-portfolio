@@ -65,30 +65,12 @@ const Header = () => {
           className="mx-3 mb-3 rounded-2xl overflow-hidden bg-black/40 backdrop-blur-xl border border-white/12"
         >
           <div className="p-3 flex flex-col gap-1">
-            <a href="#inicio" onClick={() => setMenuOpen(false)} className="flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium text-green-100 hover:text-white no-underline transition-all duration-200">
-              <span className="w-1 h-1 rounded-full bg-green-400 shrink-0 shadow-[0_0_4px_#4ade80]" />
-              {language === "es" ? "Inicio" : "Home"}
-            </a>
-            <a href="#sobre-mi" onClick={() => setMenuOpen(false)} className="flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium text-green-100 hover:text-white no-underline transition-all duration-200">
-              <span className="w-1 h-1 rounded-full bg-green-400 shrink-0 shadow-[0_0_4px_#4ade80]" />
-              {language === "es" ? "Sobre mí" : "About"}
-            </a>
-            <a href="#servicios" onClick={() => setMenuOpen(false)} className="flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium text-green-100 hover:text-white no-underline transition-all duration-200">
-              <span className="w-1 h-1 rounded-full bg-green-400 shrink-0 shadow-[0_0_4px_#4ade80]" />
-              {language === "es" ? "Servicios" : "Services"}
-            </a>
-            <a href="#habilidades" onClick={() => setMenuOpen(false)} className="flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium text-green-100 hover:text-white no-underline transition-all duration-200">
-              <span className="w-1 h-1 rounded-full bg-green-400 shrink-0 shadow-[0_0_4px_#4ade80]" />
-              {language === "es" ? "Habilidades" : "Skills"}
-            </a>
-            <a href="#proyectos" onClick={() => setMenuOpen(false)} className="flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium text-green-100 hover:text-white no-underline transition-all duration-200">
-              <span className="w-1 h-1 rounded-full bg-green-400 shrink-0 shadow-[0_0_4px_#4ade80]" />
-              {language === "es" ? "Proyectos" : "Projects"}
-            </a>
-            <a href="#contacto" onClick={() => setMenuOpen(false)} className="flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium text-green-100 hover:text-white no-underline transition-all duration-200">
-              <span className="w-1 h-1 rounded-full bg-green-400 shrink-0 shadow-[0_0_4px_#4ade80]" />
-              {language === "es" ? "Contacto" : "Contact"}
-            </a>
+            <NavItem href="#inicio" textEs="Inicio" textEn="Home" language={language} variant="mobile" setMenuOpen={setMenuOpen} />
+            <NavItem href="#sobre-mi" textEs="Sobre mí" textEn="About" language={language} variant="mobile" setMenuOpen={setMenuOpen} />
+            <NavItem href="#servicios" textEs="Servicios" textEn="Services" language={language} variant="mobile" setMenuOpen={setMenuOpen} />
+            <NavItem href="#habilidades" textEs="Habilidades" textEn="Skills" language={language} variant="mobile" setMenuOpen={setMenuOpen} />
+            <NavItem href="#proyectos" textEs="Proyectos" textEn="Projects" language={language} variant="mobile" setMenuOpen={setMenuOpen} />
+            <NavItem href="#contacto" textEs="Contacto" textEn="Contact" language={language} variant="mobile" setMenuOpen={setMenuOpen} />
 
             <div className="flex gap-2 px-1 pb-1">
               <button

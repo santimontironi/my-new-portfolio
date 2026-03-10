@@ -4,4 +4,5 @@ export interface NavItemProps {
     textEs: string;
     textEn: string;
     variant: "desktop" | "mobile";
+    setMenuOpen?: (open: boolean) => void;
 }
