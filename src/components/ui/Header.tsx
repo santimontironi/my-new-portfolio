@@ -3,6 +3,7 @@
 import { useState } from "react"
 import Image from "next/image"
 import useLanguage from "@/hooks/useLanguage"
+import NavItem from "./NavItem"
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false)
@@ -21,22 +22,13 @@ const Header = () => {
             <Image src="/images/logoWeb.png" alt="Logo" width={100} height={100} priority/>
           </a>
 
-          <nav className="hidden md:flex items-center">
-            <a href="#inicio" className="relative hvr-underline-from-right group px-4 py-2 xl:px-5 text-sm xl:text-base font-medium text-green-100 hover:text-white transition-colors duration-200 no-underline">
-              {language === "es" ? "Inicio" : "Home"}
-            </a>
-            <a href="#sobre-mi" className="relative hvr-underline-from-right group px-4 py-2 xl:px-5 text-sm xl:text-base font-medium text-green-100 hover:text-white transition-colors duration-200 no-underline">
-              {language === "es" ? "Sobre mí" : "About"}
-            </a>
-            <a href="#servicios" className="relative hvr-underline-from-right group px-4 py-2 xl:px-5 text-sm xl:text-base font-medium text-green-100 hover:text-white transition-colors duration-200 no-underline">
-              {language === "es" ? "Servicios" : "Services"}
-            </a>
-            <a href="#proyectos" className="relative hvr-underline-from-right group px-4 py-2 xl:px-5 text-sm xl:text-base font-medium text-green-100 hover:text-white transition-colors duration-200 no-underline">
-              {language === "es" ? "Proyectos" : "Projects"}
-            </a>
-            <a href="#contacto" className="relative hvr-underline-from-right group px-4 py-2 xl:px-5 text-sm xl:text-base font-medium text-green-100 hover:text-white transition-colors duration-200 no-underline">
-              {language === "es" ? "Contacto" : "Contact"}
-            </a>
+          <nav className="hidden md:flex items-center gap-3">
+            <NavItem href="#inicio" textEs="Inicio" textEn="Home" language={language} variant="desktop" />
+            <NavItem href="#sobre-mi" textEs="Sobre mí" textEn="About" language={language} variant="desktop" />
+            <NavItem href="#servicios" textEs="Servicios" textEn="Services" language={language} variant="desktop" />
+            <NavItem href="#habilidades" textEs="Habilidades" textEn="Skills" language={language} variant="desktop" />
+            <NavItem href="#proyectos" textEs="Proyectos" textEn="Projects" language={language} variant="desktop" />
+            <NavItem href="#contacto" textEs="Contacto" textEn="Contact" language={language} variant="desktop" />
           </nav>
 
           <div className="hidden md:flex items-center gap-2">
@@ -84,6 +76,10 @@ const Header = () => {
             <a href="#servicios" onClick={() => setMenuOpen(false)} className="flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium text-green-100 hover:text-white no-underline transition-all duration-200">
               <span className="w-1 h-1 rounded-full bg-green-400 shrink-0 shadow-[0_0_4px_#4ade80]" />
               {language === "es" ? "Servicios" : "Services"}
+            </a>
+            <a href="#habilidades" onClick={() => setMenuOpen(false)} className="flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium text-green-100 hover:text-white no-underline transition-all duration-200">
+              <span className="w-1 h-1 rounded-full bg-green-400 shrink-0 shadow-[0_0_4px_#4ade80]" />
+              {language === "es" ? "Habilidades" : "Skills"}
             </a>
             <a href="#proyectos" onClick={() => setMenuOpen(false)} className="flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium text-green-100 hover:text-white no-underline transition-all duration-200">
               <span className="w-1 h-1 rounded-full bg-green-400 shrink-0 shadow-[0_0_4px_#4ade80]" />

@@ -4,6 +4,7 @@ import Services from "../components/layout/Services";
 import Projects from "../components/layout/Projects";
 import Contact from "../components/layout/Contact";
 import Header from "@/components/ui/Header";
+import Skills from "@/components/layout/Skills";
 
 const Page = () => {
   return (
@@ -17,6 +18,9 @@ const Page = () => {
       </section>
       <section id="servicios">
         <Services />
+      </section>
+      <section id="habilidades">
+        <Skills />
       </section>
       <section id="proyectos">
         <Projects />
