@@ -15,7 +15,7 @@ const About = () => {
             {language === "es" ? "Sobre mí" : "About me"}
           </p>
 
-          <h2 className="text-white text-4xl md:text-5xl xl:text-6xl 2xl:text-7xl leading-[1.1]">
+          <h2 className="text-white text-4xl md:text-5xl xl:text-6xl 2xl:text-7xl leading-[1.1] font-bold">
             {language === "es" ? (
               <>Desarrollador<br /><span className="text-[#7ecf8e]">Full Stack</span></>
             ) : (

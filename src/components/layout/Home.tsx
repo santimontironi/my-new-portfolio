@@ -13,7 +13,7 @@ const Home = () => {
 
           <h1 className="text-white leading-[1.1] text-[40px] md:text-[50px] 2xl:text-[70px] mb-5 md:mb-6">
             {language === "es" ? "Hola, soy" : "Hello, I'm"}{" "}
-            <span className="text-[#7ecf8e]">
+            <span className="text-[#7ecf8e] font-bold">
               Santiago
               <br />
               Montironi

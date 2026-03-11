@@ -19,3 +19,9 @@ export interface StatListProps {
     labelES: string;
     labelEN: string;
 }
+
+export interface ServiceCardProps {
+    icon: string;
+    title: string;
+    description: string;
+}
