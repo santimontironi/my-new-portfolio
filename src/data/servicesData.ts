@@ -30,7 +30,7 @@ function serviceData (language: string) {
             {
                 icon: 'bi bi-cloud-upload',
                 title: 'Despliegue',
-                description: 'Publicación de proyectos en plataformas como Vercel y Railway, con configuración de variables de entorno, CI/CD y dominios personalizados.'
+                description: 'Publicación de proyectos en Vercel con configuración de variables de entorno y dominios personalizados.'
             },
         ]
     } else {
@@ -63,7 +63,7 @@ function serviceData (language: string) {
             {
                 icon: 'bi bi-cloud-upload',
                 title: 'Deployment',
-                description: 'Publishing projects on platforms like Vercel and Railway, with environment variable setup, CI/CD pipelines, and custom domains.'
+                description: 'Publishing projects on Vercel with environment variable setup and custom domains.'
             },
         ]
     }
