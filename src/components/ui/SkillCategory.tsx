@@ -10,7 +10,7 @@ const SkillCategory = ({ label, skills }: SkillCategoryProps) => {
   return (
     <div className="flex flex-col gap-4">
       <div className="flex items-center gap-4">
-        <span className="text-white/30 text-xs font-mono tracking-[0.25em] uppercase whitespace-nowrap">
+        <span className="text-white/70 text-xs font-bold tracking-[0.25em] uppercase whitespace-nowrap">
           {label}
         </span>
         <div className="flex-1 h-px bg-white/10" />

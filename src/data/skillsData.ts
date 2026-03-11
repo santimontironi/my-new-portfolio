@@ -17,17 +17,18 @@ export const frontendFrameworks = [
 ];
 
 export const backendFrameworks = [
-    { icon: 'https://img.icons8.com/?size=100&id=XPdRFanRZtNK&format=png&color=ffffff', name: 'Django' },
-    { icon: 'https://img.icons8.com/?size=100&id=MHcMYTljfKOr&format=png&color=ffffff', name: 'Flask' },
     { icon: 'https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000', name: 'NodeJS' },
-    { icon: 'https://img.icons8.com/?size=100&id=kg46nzoJrmTR&format=png&color=ffffff', name: 'ExpressJS' }
+    { icon: 'https://img.icons8.com/?size=100&id=9ESZMOeUioJS&format=png&color=000000', name: 'NestJS' },
+    { icon: 'https://img.icons8.com/?size=100&id=kg46nzoJrmTR&format=png&color=ffffff', name: 'ExpressJS' },
+    { icon: 'https://img.icons8.com/?size=100&id=XPdRFanRZtNK&format=png&color=ffffff', name: 'Django' }
 ]
 
 export const tools = [
-    { icon: 'https://img.icons8.com/?size=100&id=22813&format=png&color=000000', name: 'Docker' },
+    {icon: 'https://img.icons8.com/?size=100&id=bp24DwGXJDyT&format=png&color=000000', name: 'Jest'},
     { icon: 'https://img.icons8.com/?size=100&id=20906&format=png&color=000000', name: 'Git' },
     { icon: 'https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff', name: "GitHub" },
     { icon: 'https://img.icons8.com/?size=100&id=EPbEfEa7o8CB&format=png&color=000000', name: 'Postman' },
+    { icon: 'https://img.icons8.com/?size=100&id=22813&format=png&color=000000', name: 'Docker' },
     { icon: 'https://img.icons8.com/?size=100&id=YUKvLGE4zROg&format=png&color=000000', name: 'UML' },
     { icon: 'https://img.icons8.com/?size=100&id=24895&format=png&color=000000', name: 'Npm' }
 ]
