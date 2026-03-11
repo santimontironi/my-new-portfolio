@@ -59,7 +59,7 @@ const About = () => {
           </div>
 
           <div className="pt-2">
-            <a href="/CV - Santiago José Montironi.pdf" download className="group inline-flex items-center gap-3 px-8 py-4 bg-[#7ecf8e] text-[#0a1a0f] text-sm font-semibold tracking-widest hover:bg-white transition-all duration-300 shadow-[0_0_30px_rgba(146,307,142,0.5)] hover:shadow-[0_0_45px_rgba(126,207,142,0.75)] hover:scale-[1.03] active:scale-[0.97]">
+            <a href="/CV - Santiago José Montironi.pdf" download className="group inline-flex items-center gap-3 px-8 py-4 bg-[#7ecf8e] text-[#0a1a0f] text-sm font-bold tracking-widest hover:bg-white transition-all duration-300 shadow-[0_0_30px_rgba(146,307,142,0.5)] hover:shadow-[0_0_45px_rgba(126,207,142,0.75)] hover:scale-[1.03] active:scale-[0.97]">
               <i className="bi bi-download relative z-10 transition-transform duration-300 group-hover:translate-y-1" />
               {language === "es" ? "Descargar CV" : "Download CV"}
             </a>

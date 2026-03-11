@@ -25,3 +25,8 @@ export interface ServiceCardProps {
     title: string;
     description: string;
 }
+
+export type SkillListProps = {
+    logo: string;
+    name: string;
+}

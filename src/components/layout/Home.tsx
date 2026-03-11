@@ -31,8 +31,8 @@ const Home = () => {
                     : ["Fullstack Developer", "MERN Stack", "Transform ideas into software"],
                 autoStart: true,
                 loop: true,
-                delay: 65,
-                deleteSpeed: 50,
+                delay: 80,
+                deleteSpeed: 80,
               }}
             />
           </div>
