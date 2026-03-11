@@ -3,13 +3,11 @@ import About from "../components/layout/About";
 import Services from "../components/layout/Services";
 import Projects from "../components/layout/Projects";
 import Contact from "../components/layout/Contact";
-import Header from "@/components/ui/Header";
 import Skills from "@/components/layout/Skills";
 
 const Page = () => {
   return (
     <main>
-      <Header />
       <section id="inicio">
         <Home />
       </section>

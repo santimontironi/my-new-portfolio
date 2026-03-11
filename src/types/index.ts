@@ -6,3 +6,16 @@ export interface NavItemProps {
     variant: "desktop" | "mobile";
     setMenuOpen?: (open: boolean) => void;
 }
+
+export interface TechListProps {
+    name: string
+}
+
+export interface StatListProps {
+    value: string;
+    language: string;
+    textES: string;
+    textEN: string;
+    labelES: string;
+    labelEN: string;
+}

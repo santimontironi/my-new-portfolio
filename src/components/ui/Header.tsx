@@ -12,7 +12,7 @@ const Header = () => {
 
   return (
     <header
-      className="sticky bg-linear-to-r from-[#14532d] to-[#15803d] top-0 z-50 text-white backdrop-blur-sm"
+      className="bg-linear-to-r from-[#14532da9] to-[#15803c9d] z-50 text-white shadow-[5px_5px_8px_rgba(0,0,0,0.70)] header"
     >
       
       <div className="max-w-screen-2xl mx-auto px-4 md:px-8 xl:px-14 2xl:px-20">

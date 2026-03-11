@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { LanguageProvider } from "@/context/LanguageContext";
+import Header from "@/components/ui/Header";
 
 export const metadata: Metadata = {
   title: "Santiago Montironi - Portfolio",
@@ -17,6 +18,7 @@ export default function RootLayout({
       <body
       >
         <LanguageProvider>
+          <Header />
           {children}
         </LanguageProvider>
       </body>
