@@ -53,3 +53,14 @@ export type ModalProps = {
     messageES: string;
     messageEN: string;
 }
+
+export type ProjectCardProps = {
+    projectImage: string;
+    projectTitle: string;
+    projectDescription: string;
+    githubUrl: string;
+    githubIcon: string;
+    deployUrl: string;
+    deployIcon: string;
+    deployLinkName: string;
+}

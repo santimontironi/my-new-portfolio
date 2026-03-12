@@ -38,6 +38,7 @@ const Contact = () => {
       if(error?.response?.data?.message){
         console.log(error?.response?.data?.message)
       }
+      reset()
     }
   }
 
@@ -47,9 +48,6 @@ const Contact = () => {
       <div className="relative z-10 w-full max-w-6xl mx-auto flex flex-col xl:flex-row gap-16 xl:gap-24">
 
         <div className="xl:w-2/5 flex flex-col gap-6">
-          <p className="text-[#7ecf8e] font-stretch-75% text-xs tracking-[0.3em]">
-            {language === "es" ? "Contacto" : "Contact"}
-          </p>
 
           <h2
             className="text-white text-4xl md:text-5xl xl:text-6xl 2xl:text-7xl leading-[1.1] font-bold"

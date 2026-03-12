@@ -15,10 +15,7 @@ const About = () => {
       <div className="max-w-6xl mx-auto flex flex-col xl:flex-row gap-12 xl:gap-24 items-start xl:items-center">
 
         <div className="xl:w-2/5 flex flex-col gap-6">
-          <p className="text-[#7ecf8e] text-xs xl:text-[15px] tracking-[0.3em] uppercase">
-            {language === "es" ? "Sobre mí" : "About me"}
-          </p>
-
+        
           <h2 className="text-white text-4xl md:text-5xl xl:text-6xl 2xl:text-7xl leading-[1.1] font-bold">
             {language === "es" ? (
               <>Desarrollador<br /><span className="text-[#7ecf8e]">Full Stack</span></>
