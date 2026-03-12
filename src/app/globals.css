@@ -17,6 +17,12 @@ body{
     background-repeat: no-repeat;
 }
 
+.containerContact{
+    background: linear-gradient(rgba(0,0,0,0.80), rgba(0,0,0,0.60)),url('/images/contactBackground.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .header{
     position: fixed;
     top: 0;

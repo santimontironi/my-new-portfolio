@@ -30,3 +30,26 @@ export type SkillListProps = {
     icon: string;
     name: string;
 }
+
+export type ContactItemProps = {
+    icon: string;
+    label: string;
+    href: string;
+}
+
+export type SendMailData = {
+    name: string;
+    surname: string;
+    email: string;
+    message: string;
+}
+
+export type SendMailResponse = {
+    message: string;
+}
+
+export type ModalProps = {
+    language: string
+    messageES: string;
+    messageEN: string;
+}

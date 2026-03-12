@@ -24,7 +24,7 @@ const Skills = () => {
             {language === "es" ? "Mis habilidades" : "My skills"}
           </p>
           <div className="flex flex-col md:flex-row md:items-end gap-4">
-            <h2 className="text-white text-4xl md:text-5xl xl:text-6xl 2xl:text-7xl leading-[1.1]">
+            <h2 className="text-white font-bold text-4xl md:text-5xl xl:text-6xl 2xl:text-7xl leading-[1.1]">
               {language === "es" ? (
                 <>
                   Stack &amp;{" "}
