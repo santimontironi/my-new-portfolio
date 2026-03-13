@@ -1,6 +1,8 @@
-# Santiago Montironi — Portfolio en desarrollo
+# Santiago Montironi — Portfolio
 
 Portfolio personal de **Santiago Montironi**, Desarrollador Fullstack especializado en el stack MERN. Sitio web de una sola página (landing page) con soporte bilingüe **Español / Inglés**.
+
+> **Estado:** Proyecto terminado y listo para producción.
 
 ---
 

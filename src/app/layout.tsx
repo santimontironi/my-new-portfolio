@@ -7,6 +7,9 @@ import Footer from "@/components/layout/Footer";
 export const metadata: Metadata = {
   title: "Santiago Montironi - Portfolio",
   description: "Bienvenido a mi portfolio. Mi nombre es Santiago Montironi y soy Desarrollador Fullstack con experiencia en React, Next.js, Node.js y más. Explora mis proyectos, habilidades y servicios de desarrollo web. ¡Contáctame para colaborar en tu próximo proyecto!",
+  icons: {
+    icon: "/images/logoWeb.png",
+  },
 };
 
 export default function RootLayout({
