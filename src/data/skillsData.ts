@@ -19,8 +19,7 @@ export const frontendFrameworks = [
 export const backendFrameworks = [
     { icon: 'https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000', name: 'NodeJS' },
     { icon: 'https://img.icons8.com/?size=100&id=9ESZMOeUioJS&format=png&color=000000', name: 'NestJS' },
-    { icon: 'https://img.icons8.com/?size=100&id=kg46nzoJrmTR&format=png&color=ffffff', name: 'ExpressJS' },
-    { icon: 'https://img.icons8.com/?size=100&id=XPdRFanRZtNK&format=png&color=ffffff', name: 'Django' }
+    { icon: 'https://img.icons8.com/?size=100&id=kg46nzoJrmTR&format=png&color=ffffff', name: 'ExpressJS' }
 ]
 
 export const tools = [
