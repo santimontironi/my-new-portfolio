@@ -38,10 +38,10 @@ const Home = () => {
           </div>
 
           <div className="mt-8 md:mt-10 flex flex-col sm:flex-row items-center justify-start gap-3 sm:gap-5">
-            <a href="#projects" className="inline-flex items-center justify-center rounded-lg px-6 py-3 bg-[#7ecf8e] text-[#0a1a0f] tracking-widest hover:bg-[#54a665] hover:text-white transition-all transform hover:-translate-y-3 duration-300">
+            <a href="#proyectos" className="inline-flex items-center justify-center rounded-lg px-6 py-3 bg-[#7ecf8e] text-[#0a1a0f] tracking-widest hover:bg-[#54a665] hover:text-white transition-all transform hover:-translate-y-3 duration-300">
               {language === "es" ? "Ver proyectos" : "View projects"}
             </a>
-            <a href="#contact" className="inline-flex items-center justify-center rounded-lg px-6 py-3 border border-white/30 text-white tracking-widest hover:border-[#7ecf8e] hover:text-[#7ecf8e] transition-all transform hover:-translate-y-3 duration-300">
+            <a href="#contacto" className="inline-flex items-center justify-center rounded-lg px-6 py-3 border border-white/30 text-white tracking-widest hover:border-[#7ecf8e] hover:text-[#7ecf8e] transition-all transform hover:-translate-y-3 duration-300">
               {language === "es" ? "Contacto" : "Contact"}
             </a>
           </div>
