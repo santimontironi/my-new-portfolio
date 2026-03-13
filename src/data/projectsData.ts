@@ -10,8 +10,6 @@ const projectsData = (language: string) => {
         githubUrl: 'https://github.com/santimontironi/clon-slack-UTN',
         githubIcon: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
         deployUrl: 'https://clon-slack-utn-frontend.vercel.app/',
-        deployIcon: 'https://img.icons8.com/?size=100&id=2xFS7aynbwiR&format=png&color=ffffff',
-        deployLinkName: "Vercel"
       },
       {
         projectImage: '/images/proyectoMpComponentes.png',
@@ -20,8 +18,6 @@ const projectsData = (language: string) => {
         githubUrl: 'https://github.com/santimontironi/ecommerce-mpComponentes',
         githubIcon: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
         deployUrl: 'https://www.mpcomponentes.com',
-        deployIcon: 'https://img.icons8.com/?size=100&id=2xFS7aynbwiR&format=png&color=ffffff',
-        deployLinkName: "Vercel"
       },
       {
         projectImage: '/images/proyectoNunoDeportes.png',
@@ -30,8 +26,6 @@ const projectsData = (language: string) => {
         githubUrl: 'https://github.com/santimontironi/ecommerce-express',
         githubIcon: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
         deployUrl: 'https://nunodeportes.netlify.app/',
-        deployIcon: 'https://cdn.freebiesupply.com/logos/large/2x/netlify-logo-png-transparent.png',
-        deployLinkName: "Netlify"
       },
       {
         projectImage: '/images/proyectoGarsonic.png',
@@ -40,8 +34,6 @@ const projectsData = (language: string) => {
         githubUrl: 'https://github.com/santimontironi/ecommerce-express',
         githubIcon: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
         deployUrl: 'https://garsonic.netlify.app/',
-        deployIcon: 'https://cdn.freebiesupply.com/logos/large/2x/netlify-logo-png-transparent.png',
-        deployLinkName: "Netlify"
       },
       {
         projectImage: '/images/proyectoMorfiBot.png',
@@ -50,8 +42,6 @@ const projectsData = (language: string) => {
         githubUrl: 'https://github.com/santimontironi/aplicacion-recetas-IA',
         githubIcon: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
         deployUrl: 'https://morfibot.netlify.app/',
-        deployIcon: 'https://cdn.freebiesupply.com/logos/large/2x/netlify-logo-png-transparent.png',
-        deployLinkName: "Netlify"
       },
       {
         projectImage: '/images/proyectoClonWhatsapp.png',
@@ -60,8 +50,6 @@ const projectsData = (language: string) => {
         githubUrl: 'https://github.com/santimontironi/clon-whatsapp',
         githubIcon: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
         deployUrl: 'https://clon-whatsapp-sm.vercel.app/',
-        deployIcon: 'https://img.icons8.com/?size=100&id=2xFS7aynbwiR&format=png&color=ffffff',
-        deployLinkName: "Vercel"
       },
       {
         projectImage: '/images/proyectoFulboApp.png',
@@ -70,8 +58,6 @@ const projectsData = (language: string) => {
         githubUrl: 'https://github.com/santimontironi/fulboApp',
         githubIcon: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
         deployUrl: 'https://fulboapp.netlify.app/',
-        deployIcon: 'https://cdn.freebiesupply.com/logos/large/2x/netlify-logo-png-transparent.png',
-        deployLinkName: "Netlify"
       },
       {
         projectImage: '/images/proyectoWebFullWeb.png',
@@ -80,8 +66,6 @@ const projectsData = (language: string) => {
         githubUrl: 'https://github.com/santimontironi/sitio-web-agencia',
         githubIcon: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
         deployUrl: 'https://fullwebportfolio.com/',
-        deployIcon: 'https://img.icons8.com/?size=100&id=2xFS7aynbwiR&format=png&color=ffffff',
-        deployLinkName: "Vercel"
       },
       {
         projectImage: '/images/proyectoCRUDtareas.png',
@@ -90,8 +74,6 @@ const projectsData = (language: string) => {
         githubUrl: "https://github.com/santimontironi/crud-nextjs-prisma",
         githubIcon: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
         deployUrl: 'https://crud-nextjs-prisma-navy.vercel.app/',
-        deployIcon: 'https://img.icons8.com/?size=100&id=2xFS7aynbwiR&format=png&color=ffffff',
-        deployLinkName: "Vercel"
       },
       {
         projectImage: '/images/proyectoQuizCapitales.png',
@@ -100,8 +82,6 @@ const projectsData = (language: string) => {
         githubUrl: 'https://github.com/santimontironi/quiz-de-capitales',
         githubIcon: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
         deployUrl: 'https://quizcapitales.netlify.app/',
-        deployIcon: 'https://cdn.freebiesupply.com/logos/large/2x/netlify-logo-png-transparent.png',
-        deployLinkName: "Netlify"
       },
       {
         projectImage: '/images/proyectoWordle.png',
@@ -110,8 +90,6 @@ const projectsData = (language: string) => {
         githubUrl: 'https://github.com/santimontironi/wordle-game',
         githubIcon: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
         deployUrl: 'https://wordlegamebysm.netlify.app/',
-        deployIcon: 'https://cdn.freebiesupply.com/logos/large/2x/netlify-logo-png-transparent.png',
-        deployLinkName: "Netlify"
       }
     ]
 
@@ -124,8 +102,6 @@ const projectsData = (language: string) => {
         githubUrl: 'https://github.com/santimontironi/clon-slack-UTN',
         githubIcon: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
         deployUrl: 'https://clon-slack-utn-frontend.vercel.app/',
-        deployIcon: 'https://img.icons8.com/?size=100&id=2xFS7aynbwiR&format=png&color=ffffff',
-        deployLinkName: "Vercel"
       },
       {
         projectImage: '/images/proyectoMpComponentes.png',
@@ -134,8 +110,6 @@ const projectsData = (language: string) => {
         githubUrl: 'https://github.com/santimontironi/ecommerce-mpComponentes',
         githubIcon: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
         deployUrl: 'https://www.mpcomponentes.com',
-        deployIcon: 'https://img.icons8.com/?size=100&id=2xFS7aynbwiR&format=png&color=ffffff',
-        deployLinkName: "Vercel"
       },
       {
         projectImage: '/images/proyectoNunoDeportes.png',
@@ -144,10 +118,6 @@ const projectsData = (language: string) => {
         githubUrl: 'https://github.com/santimontironi/ecommerce-express',
         githubIcon: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
         deployUrl: 'https://nunodeportes.netlify.app/',
-        deployIcon: 'https://cdn.freebiesupply.com/logos/large/2x/netlify-logo-png-transparent.png',
-        deployLinkName: "Netlify",
-        demo: true,
-        videoDemoUrl: 'https://res.cloudinary.com/dbugzwzhn/video/upload/v1763169140/grabacionNunoDeportes_fbxpzj.mp4'
       },
       {
         projectImage: '/images/proyectoGarsonic.png',
@@ -156,8 +126,6 @@ const projectsData = (language: string) => {
         githubUrl: 'https://github.com/santimontironi/ecommerce-express',
         githubIcon: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
         deployUrl: 'https://garsonic.netlify.app/',
-        deployIcon: 'https://cdn.freebiesupply.com/logos/large/2x/netlify-logo-png-transparent.png',
-        deployLinkName: "Netlify"
       },
       {
         projectImage: '/images/proyectoMorfiBot.png',
@@ -166,8 +134,6 @@ const projectsData = (language: string) => {
         githubUrl: 'https://github.com/santimontironi/aplicacion-recetas-IA',
         githubIcon: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
         deployUrl: 'https://morfibot.netlify.app/',
-        deployIcon: 'https://cdn.freebiesupply.com/logos/large/2x/netlify-logo-png-transparent.png',
-        deployLinkName: "Netlify"
       },
       {
         projectImage: '/images/proyectoClonWhatsapp.png',
@@ -176,8 +142,6 @@ const projectsData = (language: string) => {
         githubUrl: 'https://github.com/santimontironi/clon-whatsapp',
         githubIcon: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
         deployUrl: 'https://clon-whatsapp-sm.vercel.app/',
-        deployIcon: 'https://img.icons8.com/?size=100&id=2xFS7aynbwiR&format=png&color=ffffff',
-        deployLinkName: "Vercel"
       },
       {
         projectImage: '/images/proyectoFulboApp.png',
@@ -186,8 +150,6 @@ const projectsData = (language: string) => {
         githubUrl: 'https://github.com/santimontironi/fulboApp',
         githubIcon: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
         deployUrl: 'https://fulboapp.netlify.app/',
-        deployIcon: 'https://cdn.freebiesupply.com/logos/large/2x/netlify-logo-png-transparent.png',
-        deployLinkName: "Netlify"
       },
       {
         projectImage: '/images/proyectoWebFullWeb.png',
@@ -196,8 +158,6 @@ const projectsData = (language: string) => {
         githubUrl: 'https://github.com/santimontironi/sitio-web-agencia',
         githubIcon: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
         deployUrl: 'https://fullwebportfolio.com/',
-        deployIcon: 'https://cdn.freebiesupply.com/logos/large/2x/netlify-logo-png-transparent.png',
-        deployLinkName: "Netlify"
       },
       {
         projectImage: '/images/proyectoCRUDtareas.png',
@@ -206,8 +166,6 @@ const projectsData = (language: string) => {
         githubUrl: "https://github.com/santimontironi/crud-nextjs-prisma",
         githubIcon: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
         deployUrl: 'https://crud-nextjs-prisma-navy.vercel.app/',
-        deployIcon: 'https://img.icons8.com/?size=100&id=2xFS7aynbwiR&format=png&color=ffffff',
-        deployLinkName: "Vercel"
       },
       {
         projectImage: '/images/proyectoQuizCapitales.png',
@@ -216,8 +174,6 @@ const projectsData = (language: string) => {
         githubUrl: 'https://github.com/santimontironi/quiz-de-capitales',
         githubIcon: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
         deployUrl: 'https://quizcapitales.netlify.app/',
-        deployIcon: 'https://cdn.freebiesupply.com/logos/large/2x/netlify-logo-png-transparent.png',
-        deployLinkName: "Netlify"
       },
       {
         projectImage: '/images/proyectoWordle.png',
@@ -226,8 +182,6 @@ const projectsData = (language: string) => {
         githubUrl: 'https://github.com/santimontironi/wordle-game',
         githubIcon: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
         deployUrl: 'https://wordlegamebysm.netlify.app/',
-        deployIcon: 'https://cdn.freebiesupply.com/logos/large/2x/netlify-logo-png-transparent.png',
-        deployLinkName: "Netlify"
       }
     ]
   }

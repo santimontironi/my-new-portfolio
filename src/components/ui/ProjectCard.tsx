@@ -1,6 +1,6 @@
 import type { ProjectCardProps } from "@/types"
 
-const ProjectCard = ({ projectImage, projectTitle, projectDescription, githubUrl, githubIcon, deployUrl, deployIcon, deployLinkName }: ProjectCardProps) => {
+const ProjectCard = ({ projectImage, projectTitle, projectDescription, githubUrl, githubIcon, deployUrl }: ProjectCardProps) => {
   return (
     <div className="group flex flex-col overflow-hidden transition-all duration-300 bg-linear-to-b from-[#1d492f] to-[#0f2415] border-2 border-[#7ecf8e]/10 hover:border-[#7ecf8e]/30 hover:shadow-[0_0_30px_rgba(126,207,142,0.08)] hover:scale-105 transform backface-visibility-hidden">
 
@@ -30,7 +30,7 @@ const ProjectCard = ({ projectImage, projectTitle, projectDescription, githubUrl
           <a href={githubUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-2 text-white/30 hover:text-[#7ecf8e] transition-colors duration-300"
+          className="flex items-center gap-2 text-white/70 hover:text-[#7ecf8e] transition-colors duration-300"
           >
           <img
             src={githubIcon}
@@ -47,16 +47,10 @@ const ProjectCard = ({ projectImage, projectTitle, projectDescription, githubUrl
           href={deployUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-2 text-white/30 hover:text-[#7ecf8e] transition-colors duration-300"
-          >
-        <img
-          src={deployIcon}
-          alt={deployLinkName}
-          className="w-4 h-4 object-contain"
-          style={{ filter: "brightness(0) invert(1)" }}
-        />
-        <span className="text-xs font-mono tracking-wider uppercase">{deployLinkName}</span>
-      </a>
+          className="flex items-center gap-2 text-white hover:text-[#7ecf8e] transition-colors duration-300"
+        >
+          <span className="text-xs tracking-wider font-bold uppercase">Ver proyecto</span>
+        </a>
     </div>
 
       </div >

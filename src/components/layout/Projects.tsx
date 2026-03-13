@@ -47,8 +47,6 @@ const Projects = () => {
               githubUrl={project.githubUrl}
               githubIcon={project.githubIcon}
               deployUrl={project.deployUrl}
-              deployIcon={project.deployIcon}
-              deployLinkName={project.deployLinkName}
             />
           ))}
         </div>

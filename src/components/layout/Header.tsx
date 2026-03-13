@@ -3,7 +3,7 @@
 import { useState } from "react"
 import Image from "next/image"
 import useLanguage from "@/hooks/useLanguage"
-import NavItem from "./NavItem"
+import NavItem from "../ui/NavItem"
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false)
