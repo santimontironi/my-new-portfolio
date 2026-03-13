@@ -30,7 +30,7 @@ const Services = () => {
           <div className="w-12 h-px bg-[#7ecf8e]" />
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 md:gap-6">
+        <div data-aos="fade-up" className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 md:gap-6">
           {services.map((service) => (
             <ServiceCard
               key={service.title}

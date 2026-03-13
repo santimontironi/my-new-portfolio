@@ -1,11 +1,15 @@
 import type { ProjectCardProps } from "@/types"
+import Image from "next/image"
 
 const ProjectCard = ({ projectImage, projectTitle, projectDescription, githubUrl, githubIcon, deployUrl }: ProjectCardProps) => {
   return (
-    <div className="group flex flex-col overflow-hidden transition-all duration-300 bg-linear-to-b from-[#1d492f] to-[#0f2415] border-2 border-[#7ecf8e]/10 hover:border-[#7ecf8e]/30 hover:shadow-[0_0_30px_rgba(126,207,142,0.08)] hover:scale-105 transform backface-visibility-hidden">
+    <div data-aos="flip-left" className="group flex flex-col overflow-hidden transition-all duration-300 bg-linear-to-b from-[#1d492f] to-[#0f2415] border-2 border-[#7ecf8e]/10 hover:border-[#7ecf8e]/30 hover:shadow-[0_0_30px_rgba(126,207,142,0.08)] hover:scale-105 transform backface-visibility-hidden">
 
       <div className="relative overflow-hidden h-48 md:h-52">
-        <img
+        <Image
+          priority
+          width={400}
+          height={300}
           src={projectImage}
           alt={projectTitle}
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
@@ -32,7 +36,10 @@ const ProjectCard = ({ projectImage, projectTitle, projectDescription, githubUrl
           rel="noopener noreferrer"
           className="flex items-center gap-2 text-white/70 hover:text-[#7ecf8e] transition-colors duration-300"
           >
-          <img
+          <Image
+            width={16}
+            height={16}
+            priority
             src={githubIcon}
             alt="GitHub"
             className="w-4 h-4 object-contain"
