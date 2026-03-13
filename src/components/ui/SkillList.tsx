@@ -3,7 +3,7 @@ import Image from "next/image"
 
 const SkillList = ({ icon, name }: SkillListProps) => {
   return (
-    <div className="group flex flex-col items-center gap-2 p-3 md:p-4 border-3 border-white/10 hover:border-[#15803c9d] bg-white/5 hover:bg-white/5 transition-all duration-300 cursor-default min-w-20">
+    <div data-aos="fade-right" className="group flex flex-col items-center gap-2 p-3 md:p-4 border-3 border-white/10 hover:border-[#15803c9d] bg-white/5 hover:bg-white/5 transition-all duration-300 cursor-default min-w-20">
       <Image
         priority
         src={icon}

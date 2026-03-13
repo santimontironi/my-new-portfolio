@@ -12,7 +12,7 @@ const About = () => {
       <div className="hidden xl:block absolute top-10 left-10 w-64 h-64 md:w-96 md:h-96 rounded-full bg-[#7ecf8e]/12 blur-3xl pointer-events-none" />
       <div className="hidden xl:block absolute -bottom-10 right-0 w-40 h-40 md:w-64 md:h-64 rounded-full bg-[#7ecf8e]/12 blur-2xl pointer-events-none" />
 
-      <div className="max-w-6xl mx-auto flex flex-col xl:flex-row gap-12 xl:gap-24 items-start xl:items-center">
+      <div data-aos="fade-up" className="max-w-6xl mx-auto flex flex-col xl:flex-row gap-12 xl:gap-24 items-start xl:items-center">
 
         <div className="xl:w-2/5 flex flex-col gap-6">
         

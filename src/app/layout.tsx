@@ -3,6 +3,7 @@ import "./globals.css";
 import { LanguageProvider } from "@/context/LanguageContext";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import AOSInit from "@/components/layout/AOSInit";
 
 export const metadata: Metadata = {
   title: "Santiago Montironi - Portfolio",
@@ -23,6 +24,7 @@ export default function RootLayout({
       >
         <LanguageProvider>
           <Header />
+          <AOSInit />
           {children}
           <Footer />
         </LanguageProvider>
