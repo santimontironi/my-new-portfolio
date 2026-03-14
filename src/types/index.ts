@@ -61,4 +61,5 @@ export type ProjectCardProps = {
     githubUrl: string;
     githubIcon: string;
     deployUrl: string;
+    language: string
 }

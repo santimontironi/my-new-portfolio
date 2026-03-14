@@ -1,7 +1,7 @@
 import type { ProjectCardProps } from "@/types"
 import Image from "next/image"
 
-const ProjectCard = ({ projectImage, projectTitle, projectDescription, githubUrl, githubIcon, deployUrl }: ProjectCardProps) => {
+const ProjectCard = ({ projectImage, projectTitle, projectDescription, githubUrl, githubIcon, deployUrl, language }: ProjectCardProps) => {
   return (
     <div data-aos="flip-left" className="group flex flex-col overflow-hidden transition-all duration-300 bg-linear-to-b from-[#1d492f] to-[#0f2415] border-2 border-[#7ecf8e]/10 hover:border-[#7ecf8e]/30 hover:shadow-[0_0_30px_rgba(126,207,142,0.08)] hover:scale-105 transform backface-visibility-hidden">
 
@@ -56,7 +56,9 @@ const ProjectCard = ({ projectImage, projectTitle, projectDescription, githubUrl
           rel="noopener noreferrer"
           className="flex items-center gap-2 text-white hover:text-[#7ecf8e] transition-colors duration-300"
         >
-          <span className="text-xs tracking-wider font-bold uppercase">Ver proyecto</span>
+          <span className="text-xs tracking-wider font-bold uppercase">
+            {language === "es" ? "Ver proyecto" : "View project"}
+          </span>
         </a>
     </div>
 
