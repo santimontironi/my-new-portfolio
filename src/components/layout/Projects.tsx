@@ -48,6 +48,7 @@ const Projects = () => {
               githubIcon={project.githubIcon}
               deployUrl={project.deployUrl}
               language={language}
+              videoURL={'videoURL' in project ? project.videoURL as string : undefined}
             />
           ))}
         </div>

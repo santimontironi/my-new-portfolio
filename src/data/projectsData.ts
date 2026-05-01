@@ -1,8 +1,15 @@
-
-
 const projectsData = (language: string) => {
   if (language === 'es') {
     return [
+      {
+        projectImage: '/images/proyectoBarbershop.png',
+        projectTitle: "Barbería FullStack",
+        projectDescription: "Proyecto de desarrollo web FullStack. Que consiste en una barbería con catálogo de servicios, reservas online y panel de administración. Desarrollado con stack PERN + TailwindCSS.",
+        githubUrl: 'https://github.com/santimontironi/barbershop-pern-stack',
+        githubIcon: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
+        deployUrl: 'https://barbershop-pern-stack.vercel.app/',
+        videoURL: 'https://www.youtube.com/watch?v=jHwb0ouNiFA'
+      },
       {
         projectImage: '/images/proyectoClonSlack.jpeg',
         projectTitle: "Clon de Slack",
@@ -95,6 +102,14 @@ const projectsData = (language: string) => {
 
   } else {
     return [
+      {
+        projectImage: '/images/proyectoBarbershop.png',
+        projectTitle: "FullStack Barbershop",
+        projectDescription: "FullStack web development project. Consists in a barbershop with service catalog, online booking and admin panel. Built with PERN stack + TailwindCSS.",
+        githubUrl: 'https://github.com/santimontironi/barbershop',
+        githubIcon: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
+        deployUrl: 'https://barbershop-pern-stack.vercel.app/'
+      },
       {
         projectImage: '/images/proyectoClonSlack.jpeg',
         projectTitle: "Slack Clone",

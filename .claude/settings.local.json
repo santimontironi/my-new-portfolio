@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\Usuario\\\\Desktop\\\\Programacion\" -Force | Where-Object { $_.Name -match \"config|package|\\\\.next|tailwind|postcss\" })",
+      "Bash(grep -o \".\\\\{0,50\\\\}let f=.\\\\{0,100\\\\}\" \"C:\\\\Users\\\\Usuario\\\\Desktop\\\\Programacion\\\\my-new-portfolio\\\\node_modules\\\\@tailwindcss\\\\postcss\\\\dist\\\\index.js\")",
+      "Bash(grep -o \"base:.\\\\{0,200\\\\}\" \"C:\\\\Users\\\\Usuario\\\\Desktop\\\\Programacion\\\\my-new-portfolio\\\\node_modules\\\\@tailwindcss\\\\postcss\\\\dist\\\\index.js\")",
+      "Bash(grep -o \".\\\\{300\\\\}let f=.\\\\{0,200\\\\}compileAst\" \"C:\\\\Users\\\\Usuario\\\\Desktop\\\\Programacion\\\\my-new-portfolio\\\\node_modules\\\\@tailwindcss\\\\postcss\\\\dist\\\\index.js\")",
+      "Bash(grep *)",
+      "Bash(node *)",
+      "mcp__ide__getDiagnostics"
+    ]
+  }
+}

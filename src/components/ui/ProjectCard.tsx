@@ -1,7 +1,7 @@
 import type { ProjectCardProps } from "@/types"
 import Image from "next/image"
 
-const ProjectCard = ({ projectImage, projectTitle, projectDescription, githubUrl, githubIcon, deployUrl, language }: ProjectCardProps) => {
+const ProjectCard = ({ projectImage, projectTitle, projectDescription, githubUrl, githubIcon, deployUrl, language, videoURL }: ProjectCardProps) => {
   return (
     <div data-aos="flip-left" className="group flex flex-col overflow-hidden transition-all duration-300 bg-linear-to-b from-[#1d492f] to-[#0f2415] border-2 border-[#7ecf8e]/10 hover:border-[#7ecf8e]/30 hover:shadow-[0_0_30px_rgba(126,207,142,0.08)] hover:scale-105 transform backface-visibility-hidden">
 
@@ -28,6 +28,18 @@ const ProjectCard = ({ projectImage, projectTitle, projectDescription, githubUrl
         <p className="text-white/70 text-sm leading-relaxed line-clamp-5 group-hover:text-white/60 transition-colors duration-300">
           {projectDescription}
         </p>
+
+        {videoURL && (
+          <a
+            href={videoURL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-center gap-2 w-full py-2 px-4 border border-[#7ecf8e]/40 text-[#7ecf8e] hover:bg-[#7ecf8e]/10 transition-colors duration-300 text-xs font-bold tracking-wider uppercase"
+          >
+            <i className="bi bi-play-circle-fill" />
+            {language === "es" ? "Ver panel de admin" : "View admin panel"}
+          </a>
+        )}
 
         <div className="flex items-center gap-4 mt-auto pt-4 border-t border-[#7ecf8e]/10">
 
