@@ -1,5 +1,5 @@
 export const languages = [
-    { icon: 'https://img.icons8.com/?size=100&id=13441&format=png&color=000000', name: 'Python' },
+    { icon: 'https://upload.wikimedia.org/wikipedia/commons/4/4f/Csharp_Logo.png', name: 'C#' },
     { icon: 'https://img.icons8.com/?size=100&id=PXTY4q2Sq2lG&format=png&color=000000', name: 'JavaScript' },
     { icon: 'https://img.icons8.com/?size=100&id=Xf1sHBmY73hA&format=png&color=000000', name: 'TypeScript' },
 ]
@@ -18,7 +18,7 @@ export const frontendFrameworks = [
 
 export const backendFrameworks = [
     { icon: 'https://img.icons8.com/?size=100&id=hsPbhkOH4FMe&format=png&color=000000', name: 'NodeJS' },
-    { icon: 'https://img.icons8.com/?size=100&id=9ESZMOeUioJS&format=png&color=000000', name: 'NestJS' },
+    { icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/960px-.NET_Core_Logo.svg.png?_=20210328084203', name: '.NET Core' },
     { icon: 'https://img.icons8.com/?size=100&id=kg46nzoJrmTR&format=png&color=ffffff', name: 'ExpressJS' }
 ]
 
