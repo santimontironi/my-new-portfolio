@@ -1,11 +1,11 @@
 "use client"
 import useLanguage from "@/hooks/useLanguage"
-import projectsData from "@/data/projectsData"
+import { getProjects } from "@/services/projectsService"
 import ProjectCard from "../ui/ProjectCard"
 
 const Projects = () => {
   const { language } = useLanguage()
-  const projects = projectsData(language)
+  const projects = getProjects(language)
 
   return (
     <section className="w-full bg-zinc-950 py-20 md:py-28 xl:py-36 px-6 md:px-16 lg:px-24 xl:px-32 2xl:px-48 relative">
