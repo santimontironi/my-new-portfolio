@@ -11,6 +11,14 @@ const projectsData = (language: string) => {
         videoURL: 'https://www.youtube.com/watch?v=jHwb0ouNiFA'
       },
       {
+        projectImage: '/images/proyectoVaquitapp.png',
+        projectTitle: "Vaquitapp",
+        projectDescription: "App Web que gestiona los gastos de un plan dentro de un grupo de personas. Se utiliza un algoritmo Greedy para resolver las deudas de los gastos. Desarrollada con stack MERN + TailwindCSS.",
+        githubUrl: 'https://github.com/santimontironi/vaquitapp---web-application-for-expenses',
+        githubIcon: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
+        deployUrl: 'https://vaquitapp.vercel.app/',
+      },
+      {
         projectImage: '/images/proyectoClonSlack.jpeg',
         projectTitle: "Clon de Slack",
         projectDescription: "TP final de la Diplomatura Full Stack de UTN Bs. As. Clon de Slack con autenticación, canales de chat en tiempo real y stack MERN + TailwindCSS. Backend testeado con Jest.",
@@ -109,6 +117,14 @@ const projectsData = (language: string) => {
         githubUrl: 'https://github.com/santimontironi/barbershop',
         githubIcon: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
         deployUrl: 'https://barbershop-pern-stack.vercel.app/'
+      },
+      {
+        projectImage: '/images/proyectoVaquitapp.png',
+        projectTitle: "Vaquitapp",
+        projectDescription: "This Web App consists in the management of the plan in a group of people. It´s implemented a Greedy algorithm to solve the debts of the expenses. Developed with MERN stack + TailwindCSS.",
+        githubUrl: 'https://github.com/santimontironi/vaquitapp---web-application-for-expenses',
+        githubIcon: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
+        deployUrl: 'https://vaquitapp.vercel.app/',
       },
       {
         projectImage: '/images/proyectoClonSlack.jpeg',

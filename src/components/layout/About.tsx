@@ -33,6 +33,8 @@ const About = () => {
             <TechList name="Node.js" />
             <TechList name="Next.js" />
             <TechList name="TypeScript" />
+            <TechList name="JavaScript" />
+            <TechList name="ASP .NET Core" />
           </div>
         </div>
 

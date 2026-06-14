@@ -7,7 +7,8 @@
       "Bash(grep -o \".\\\\{300\\\\}let f=.\\\\{0,200\\\\}compileAst\" \"C:\\\\Users\\\\Usuario\\\\Desktop\\\\Programacion\\\\my-new-portfolio\\\\node_modules\\\\@tailwindcss\\\\postcss\\\\dist\\\\index.js\")",
       "Bash(grep *)",
       "Bash(node *)",
-      "mcp__ide__getDiagnostics"
+      "mcp__ide__getDiagnostics",
+      "Bash(git checkout *)"
     ]
   }
 }
