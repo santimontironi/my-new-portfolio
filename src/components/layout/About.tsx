@@ -27,14 +27,15 @@ const About = () => {
           <div className="w-12 h-px bg-[#7ecf8e]" />
 
           <div className="flex flex-wrap gap-2 mt-2">
-            <TechList name="MongoDB" />
+            <TechList name="TypeScript" />
+            <TechList name="JavaScript" />
             <TechList name="Express" />
             <TechList name="React" />
             <TechList name="Node.js" />
             <TechList name="Next.js" />
-            <TechList name="TypeScript" />
-            <TechList name="JavaScript" />
-            <TechList name="ASP .NET Core" />
+            <TechList name="NestJS" />
+            <TechList name="MongoDB" />
+            <TechList name="SQL" />
           </div>
         </div>
 
@@ -52,7 +53,7 @@ const About = () => {
           </p>
 
           <div className="grid grid-cols-3 gap-4 border-t border-white/10 pt-8">
-            <StatList value="23" language={language} textES="23" textEN="23" labelES="Años" labelEN="Years old" />
+            <StatList value="24" language={language} textES="24" textEN="24" labelES="Años" labelEN="Years old" />
             <StatList value="+10" language={language} textES="+10" textEN="+10" labelES="Proyectos" labelEN="Projects" />
             <StatList value="+3" language={language} textES="+3" textEN="+3" labelES="Años de experiencia" labelEN="Years of experience" />
           </div>
