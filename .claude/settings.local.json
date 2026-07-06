@@ -8,7 +8,11 @@
       "Bash(grep *)",
       "Bash(node *)",
       "mcp__ide__getDiagnostics",
-      "Bash(git checkout *)"
+      "Bash(git checkout *)",
+      "Bash(ls postcss.config.*)",
+      "Bash(ls next.config.*)",
+      "Bash(find src *)",
+      "Bash(npx next *)"
     ]
   }
 }

@@ -91,14 +91,6 @@ const projectsData = (language: string) => {
         deployUrl: 'https://crud-nextjs-prisma-navy.vercel.app/',
       },
       {
-        projectImage: '/images/proyectoQuizCapitales.png',
-        projectTitle: "Quiz de capitales",
-        projectDescription: "Quiz interactivo de opción múltiple sobre capitales del mundo. Ponés a prueba tu geografía con preguntas aleatorias.",
-        githubUrl: 'https://github.com/santimontironi/quiz-de-capitales',
-        githubIcon: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
-        deployUrl: 'https://quizcapitales.netlify.app/',
-      },
-      {
         projectImage: '/images/proyectoWordle.png',
         projectTitle: "Juego Wordle",
         projectDescription: "Clon del famoso juego Wordle. Tenés 5 intentos para adivinar la palabra; cada intento revela qué letras son correctas.",
@@ -197,14 +189,6 @@ const projectsData = (language: string) => {
         githubUrl: "https://github.com/santimontironi/crud-nextjs-prisma",
         githubIcon: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
         deployUrl: 'https://crud-nextjs-prisma-navy.vercel.app/',
-      },
-      {
-        projectImage: '/images/proyectoQuizCapitales.png',
-        projectTitle: "World Capitals Quiz",
-        projectDescription: "Interactive multiple-choice quiz about world capitals. Test your geography knowledge with random questions.",
-        githubUrl: 'https://github.com/santimontironi/quiz-de-capitales',
-        githubIcon: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
-        deployUrl: 'https://quizcapitales.netlify.app/',
       },
       {
         projectImage: '/images/proyectoWordle.png',
