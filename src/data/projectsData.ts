@@ -2,6 +2,14 @@ const projectsData = (language: string) => {
   if (language === 'es') {
     return [
       {
+        projectImage: '/images/proyectoFrigorifico.png',
+        projectTitle: "Frigorifico 5 estrellas",
+        projectDescription: "Proyecto para un cliente desarrollado con stack MERN. Que consiste en un frigorífico con catálogo de productos, carrito de compras, realización de pedidos, historiales y panel de administración.",
+        githubUrl: 'https://github.com/santimontironi/frigorifico-5-estrellas-app-web',
+        githubIcon: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
+        deployUrl: 'https://www.frigorifico5estrellas.com'
+      },
+      {
         projectImage: '/images/proyectoBarbershop.png',
         projectTitle: "Barbería FullStack",
         projectDescription: "Proyecto de desarrollo web FullStack. Que consiste en una barbería con catálogo de servicios, reservas online y panel de administración. Desarrollado con stack PERN + TailwindCSS.",
@@ -102,6 +110,14 @@ const projectsData = (language: string) => {
 
   } else {
     return [
+      {
+        projectImage: '/images/proyectoFrigorifico.png',
+        projectTitle: "Frigorifico 5 estrellas",
+        projectDescription: "This project for a customer was developed with the MERN stack. It consists of a frigorifico with product catalog, shopping cart, order realization, history and admin panel.",
+        githubUrl: 'https://github.com/santimontironi/frigorifico-5-estrellas-app-web',
+        githubIcon: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
+        deployUrl: 'https://www.frigorifico5estrellas.com'
+      },
       {
         projectImage: '/images/proyectoBarbershop.png',
         projectTitle: "FullStack Barbershop",
