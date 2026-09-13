@@ -24,7 +24,7 @@ const projectsData = (language: string) => {
         projectDescription: "App Web que gestiona los gastos de un plan dentro de un grupo de personas. Se utiliza un algoritmo Greedy para resolver las deudas de los gastos. Desarrollada con stack MERN + TailwindCSS.",
         githubUrl: 'https://github.com/santimontironi/vaquitapp---web-application-for-expenses',
         githubIcon: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
-        deployUrl: 'https://vaquitapp.vercel.app/',
+        deployUrl: 'https://vaquitapp-frontend.vercel.app/',
       },
       {
         projectImage: '/images/proyectoClonSlack.jpeg',
@@ -132,7 +132,7 @@ const projectsData = (language: string) => {
         projectDescription: "This Web App consists in the management of the plan in a group of people. It´s implemented a Greedy algorithm to solve the debts of the expenses. Developed with MERN stack + TailwindCSS.",
         githubUrl: 'https://github.com/santimontironi/vaquitapp---web-application-for-expenses',
         githubIcon: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
-        deployUrl: 'https://vaquitapp.vercel.app/',
+        deployUrl: 'https://vaquitapp-frontend.vercel.app/',
       },
       {
         projectImage: '/images/proyectoClonSlack.jpeg',
