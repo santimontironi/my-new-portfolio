@@ -112,7 +112,7 @@ const projectsData = (language: string) => {
     return [
       {
         projectImage: '/images/proyectoFrigorifico.png',
-        projectTitle: "Frigorifico 5 estrellas",
+        projectTitle: "Frigorífico 5 estrellas",
         projectDescription: "This project for a customer was developed with the MERN stack. It consists of a frigorifico with product catalog, shopping cart, order realization, history and admin panel.",
         githubUrl: 'https://github.com/santimontironi/frigorifico-5-estrellas-app-web',
         githubIcon: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
