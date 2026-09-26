@@ -36,6 +36,7 @@ const About = () => {
             <TechList name="NestJS" />
             <TechList name="MongoDB" />
             <TechList name="SQL" />
+            <TechList name="Git" />
           </div>
         </div>
 
@@ -43,8 +44,8 @@ const About = () => {
 
           <p className="text-white/60 text-base md:text-lg leading-relaxed">
             {language === "es"
-              ? "Soy Santiago Montironi, tengo 23 años y soy Técnico Superior en Desarrollo de Software. Me especializo en el stack MERN y en construir aplicaciones web modernas con Next.js, TypeScript y las últimas tecnologías del ecosistema JavaScript."
-              : "I'm Santiago Montironi, 23 years old and a Higher Technician in Software Development. I specialize in the MERN stack and building modern web applications with Next.js, TypeScript, and the latest JavaScript ecosystem technologies."}
+              ? "Soy Santiago Montironi, tengo 24 años y soy Técnico Superior en Desarrollo de Software. Me especializo en el stack MERN y en construir aplicaciones web modernas con Next.js, TypeScript y las últimas tecnologías del ecosistema JavaScript."
+              : "I'm Santiago Montironi, 24 years old and a Higher Technician in Software Development. I specialize in the MERN stack and building modern web applications with Next.js, TypeScript, and the latest JavaScript ecosystem technologies."}
           </p>
           <p className="text-white/60 text-base md:text-lg leading-relaxed">
             {language === "es"

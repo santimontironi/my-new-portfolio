@@ -13,9 +13,9 @@ function serviceData (language: string) {
                 description: 'Creación de aplicaciones web modernas con Next.js, aprovechando SSR, SSG y el App Router para obtener el máximo rendimiento y SEO.'
             },
             {
-                icon: 'bi bi-palette',
-                title: 'UI con Tailwind CSS',
-                description: 'Diseño de interfaces modernas, responsivas y altamente personalizables utilizando Tailwind CSS y componentes reutilizables.'
+                icon: 'bi bi-diagram-2',
+                title: 'Clean Architecture con C#',
+                description: 'Diseño de aplicaciones con C# y .NET siguiendo Clean Architecture, separando capas de dominio, aplicación, infraestructura y presentación para un código mantenible y testeable.'
             },
             {
                 icon: 'bi bi-diagram-3',
@@ -30,7 +30,7 @@ function serviceData (language: string) {
             {
                 icon: 'bi bi-cloud-upload',
                 title: 'Despliegue',
-                description: 'Publicación de proyectos en Vercel con configuración de variables de entorno y dominios personalizados.'
+                description: 'Publicación de proyectos en plataformas cloud con configuración de variables de entorno, CI/CD y dominios personalizados.'
             },
         ]
     } else {
@@ -46,9 +46,9 @@ function serviceData (language: string) {
                 description: 'Creating modern web applications with Next.js, leveraging SSR, SSG, and the App Router for maximum performance and SEO.'
             },
             {
-                icon: 'bi bi-palette',
-                title: 'UI with Tailwind CSS',
-                description: 'Designing modern, responsive, and highly customizable interfaces using Tailwind CSS and reusable components.'
+                icon: 'bi bi-diagram-2',
+                title: 'Clean Architecture with C#',
+                description: 'Designing applications with C# and .NET following Clean Architecture, separating domain, application, infrastructure, and presentation layers for maintainable, testable code.'
             },
             {
                 icon: 'bi bi-diagram-3',
@@ -63,7 +63,7 @@ function serviceData (language: string) {
             {
                 icon: 'bi bi-cloud-upload',
                 title: 'Deployment',
-                description: 'Publishing projects on Vercel with environment variable setup and custom domains.'
+                description: 'Publishing projects on cloud platforms with environment variable setup, CI/CD, and custom domains.'
             },
         ]
     }
