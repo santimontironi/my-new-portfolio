@@ -10,6 +10,14 @@ const projectsData = (language: string) => {
         deployUrl: 'https://www.frigorifico5estrellas.com'
       },
       {
+        projectImage: '/images/proyectoMiBolsillo.png',
+        projectTitle: "Mi Bolsillo",
+        projectDescription: "Proyecto para mi novia desarrollado con stack MERN. Que consiste en la gestión de gastos, categorías y reportes diarios/mensuales de los gastos. Credenciales de prueba en README.",
+        githubUrl: 'https://github.com/santimontironi/expense-manager-MERN',
+        githubIcon: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
+        deployUrl: 'https://expense-manager-mern-zeta.vercel.app/'
+      },
+      {
         projectImage: '/images/proyectoBarbershop.png',
         projectTitle: "Barbería FullStack",
         projectDescription: "Proyecto de desarrollo web FullStack. Que consiste en una barbería con catálogo de servicios, reservas online y panel de administración. Desarrollado con stack PERN + TailwindCSS.",
@@ -103,12 +111,21 @@ const projectsData = (language: string) => {
         deployUrl: 'https://www.frigorifico5estrellas.com'
       },
       {
+        projectImage: '/images/proyectoMiBolsillo.png',
+        projectTitle: "Mi Bolsillo",
+        projectDescription: "Project for my girlfriend developed with the MERN stack. It consists of expense management, categories and daily/monthly expense reports. Test credentials are in the repository's README.",
+        githubUrl: 'https://github.com/santimontironi/expense-manager-MERN',
+        githubIcon: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
+        deployUrl: 'https://expense-manager-mern-zeta.vercel.app/'
+      },
+      {
         projectImage: '/images/proyectoBarbershop.png',
         projectTitle: "FullStack Barbershop",
         projectDescription: "FullStack web development project. Consists in a barbershop with service catalog, online booking and admin panel. Built with PERN stack + TailwindCSS.",
-        githubUrl: 'https://github.com/santimontironi/barbershop',
+        githubUrl: 'https://github.com/santimontironi/barbershop-pern-stack',
         githubIcon: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
-        deployUrl: 'https://barbershop-pern-stack.vercel.app/'
+        deployUrl: 'https://barbershop-pern-stack.vercel.app/',
+        videoURL: 'https://www.youtube.com/watch?v=jHwb0ouNiFA'
       },
       {
         projectImage: '/images/proyectoVaquitapp.png',
