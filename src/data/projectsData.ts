@@ -91,14 +91,6 @@ const projectsData = (language: string) => {
         deployUrl: 'https://fullwebportfolio.com/',
       },
       {
-        projectImage: '/images/proyectoCRUDtareas.png',
-        projectTitle: "Gestor de tareas Next.js",
-        projectDescription: "Gestor de tareas con Next.js, PostgreSQL, Prisma ORM y autenticación con NextAuth. CRUD completo de tareas por usuario.",
-        githubUrl: "https://github.com/santimontironi/crud-nextjs-prisma",
-        githubIcon: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
-        deployUrl: 'https://crud-nextjs-prisma-navy.vercel.app/',
-      },
-      {
         projectImage: '/images/proyectoWordle.png',
         projectTitle: "Juego Wordle",
         projectDescription: "Clon del famoso juego Wordle. Tenés 5 intentos para adivinar la palabra; cada intento revela qué letras son correctas.",
@@ -198,14 +190,6 @@ const projectsData = (language: string) => {
         githubUrl: 'https://github.com/santimontironi/sitio-web-agencia',
         githubIcon: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
         deployUrl: 'https://fullwebportfolio.com/',
-      },
-      {
-        projectImage: '/images/proyectoCRUDtareas.png',
-        projectTitle: "Tasks manager Next.js",
-        projectDescription: "Task manager built with Next.js, PostgreSQL, Prisma ORM and NextAuth authentication. Full CRUD per user.",
-        githubUrl: "https://github.com/santimontironi/crud-nextjs-prisma",
-        githubIcon: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
-        deployUrl: 'https://crud-nextjs-prisma-navy.vercel.app/',
       },
       {
         projectImage: '/images/proyectoWordle.png',
