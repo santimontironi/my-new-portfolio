@@ -27,6 +27,14 @@ const projectsData = (language: string) => {
         videoURL: 'https://www.youtube.com/watch?v=jHwb0ouNiFA'
       },
       {
+        projectImage: '/images/proyectoNunoDeportes.png',
+        projectTitle: "Nuno Deportes",
+        projectDescription: "Proyecto de desarrollo web FullStack. Que consiste en una tienda online de artículos deportivos con gestión de inventario, carrito de compras y procesamiento de pagos con Mercado Pago API. Desarrollado con stack MERN + TailwindCSS.",
+        githubUrl: 'https://github.com/santimontironi/ecommerce-express',
+        githubIcon: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
+        deployUrl: 'https://nuno-deportes.vercel.app/',
+      },
+      {
         projectImage: '/images/proyectoVaquitapp.png',
         projectTitle: "Vaquitapp",
         projectDescription: "App Web que gestiona los gastos de un plan dentro de un grupo de personas. Se utiliza un algoritmo Greedy para resolver las deudas de los gastos. Desarrollada con stack MERN + TailwindCSS.",
@@ -126,6 +134,14 @@ const projectsData = (language: string) => {
         githubIcon: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
         deployUrl: 'https://barbershop-pern-stack.vercel.app/',
         videoURL: 'https://www.youtube.com/watch?v=jHwb0ouNiFA'
+      },
+      {
+        projectImage: '/images/proyectoNunoDeportes.png',
+        projectTitle: "Nuno Deportes",
+        projectDescription: "Project of FullStack web development. It consists in an online store of sports articles with inventory management, shopping cart and payment processing with Mercado Pago API. Built with MERN stack + TailwindCSS.",
+        githubUrl: 'https://github.com/santimontironi/ecommerce-express',
+        githubIcon: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
+        deployUrl: 'https://nuno-deportes.vercel.app/',
       },
       {
         projectImage: '/images/proyectoVaquitapp.png',
