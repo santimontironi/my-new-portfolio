@@ -4,42 +4,32 @@ import useLanguage from "@/hooks/useLanguage"
 import { useForm } from "react-hook-form"
 import { useState } from "react"
 import ContactItem from "../ui/ContactItem"
-import { sendMailService } from "@/services/apiService"
-import type { SendMailData } from "@/types"
+import { zodResolver } from "@hookform/resolvers/zod"
+import { contactSchema, type ContactData } from "@/lib/validations/contact"
+import { sendContactEmail } from "@/actions/contact"
 import { ToastContainer, toast } from "react-toastify"
 import Modal from "../ui/Modal"
 
 const Contact = () => {
   const { language } = useLanguage()
-  const { register, handleSubmit, formState: { errors }, reset } = useForm<SendMailData>()
+
+  const { register, handleSubmit, formState: { errors, isSubmitting }, reset } = useForm<ContactData>({
+    resolver: zodResolver(contactSchema),
+  })
 
   const [modalOpen, setModalOpen] = useState(false)
 
-  const formSubmit = async (data: SendMailData) => {
-    toast.info(language === "es" ? "Enviando mensaje..." : "Sending message...", {
-      position: "top-right",
-      autoClose: 2000,
-      hideProgressBar: false,
-      closeOnClick: true,
-      pauseOnHover: true,
-      draggable: true,        
-      progress: undefined,
-      theme: "dark",
-    })
-    try{
-      await sendMailService(data)
-      setModalOpen(true)
-      reset()
-      setTimeout(() => {
-        setModalOpen(false)
-      }, 2800)
+  const formSubmit = async (data: ContactData) => {
+    const { ok } = await sendContactEmail(data)
+    if (!ok) {
+      toast.error(language === "es" ? "No se pudo enviar el mensaje" : "Message could not be sent", { theme: "dark" })
+      return
     }
-    catch(error: any){
-      if(error?.response?.data?.message){
-        console.log(error?.response?.data?.message)
-      }
-      reset()
-    }
+    setModalOpen(true)
+    reset()
+    setTimeout(() => {
+      setModalOpen(false)
+    }, 2500)
   }
 
   return (
@@ -55,7 +45,7 @@ const Contact = () => {
             {language === "es" ? (
               <>Hablemos de tu{" "}<br /><span className="text-[#7ecf8e]">proyecto</span></>
             ) : (
-              <>Let's talk about{" "}<br /><span className="text-[#7ecf8e]">your project</span></>
+              <>Let&apos;s talk about{" "}<br /><span className="text-[#7ecf8e]">your project</span></>
             )}
           </h2>
 
@@ -83,7 +73,7 @@ const Contact = () => {
                   {language === "es" ? "Nombre" : "Name"}
                 </label>
                 <input
-                  {...register("name", { required: true })}
+                  {...register("name")}
                   type="text"
                   placeholder={language === "es" ? "Tu nombre" : "Your name"}
                   className="bg-white/5 backdrop-blur-sm border border-white/10 text-white placeholder:text-white/20 px-4 py-3 text-sm font-mono focus:outline-none focus:border-[#7ecf8e]/60 transition-colors duration-300"
@@ -100,7 +90,7 @@ const Contact = () => {
                   {language === "es" ? "Apellido" : "Surname"}
                 </label>
                 <input
-                  {...register("surname", { required: true })}
+                  {...register("surname")}
                   type="text"
                   placeholder={language === "es" ? "Tu apellido" : "Your surname"}
                   className="bg-white/5 backdrop-blur-sm border border-white/10 text-white placeholder:text-white/20 px-4 py-3 text-sm font-mono focus:outline-none focus:border-[#7ecf8e]/60 transition-colors duration-300"
@@ -117,14 +107,14 @@ const Contact = () => {
                   Email
                 </label>
                 <input
-                  {...register("email", { required: true })}
+                  {...register("email")}
                   type="email"
                   placeholder={language === "es" ? "Tu email" : "Your email"}
                   className="bg-white/5 backdrop-blur-sm border border-white/10 text-white placeholder:text-white/20 px-4 py-3 text-sm font-mono focus:outline-none focus:border-[#7ecf8e]/60 transition-colors duration-300"
                 />
                 {errors.email && (
                   <span className="text-red-400 text-xs">
-                    {language === "es" ? "Campo requerido" : "Required field"}
+                    {language === "es" ? "Email inválido" : "Invalid email"}
                   </span>
                 )}
               </div>
@@ -134,7 +124,7 @@ const Contact = () => {
                   {language === "es" ? "Mensaje" : "Message"}
                 </label>
                 <textarea
-                  {...register("message", { required: true })}
+                  {...register("message")}
                   rows={6}
                   placeholder={language === "es" ? "Contame sobre tu proyecto..." : "Tell me about your project..."}
                   className="bg-white/5 backdrop-blur-sm border border-white/10 text-white placeholder:text-white/20 px-4 py-3 text-sm font-mono focus:outline-none focus:border-[#7ecf8e]/60 transition-colors duration-300 resize-none"
@@ -149,11 +139,14 @@ const Contact = () => {
               <div className="pt-2">
                 <button
                   type="submit"
-                  className="group cursor-pointer relative inline-flex items-center justify-center gap-3 px-8 py-4 bg-transparent border border-[#7ecf8e] text-[#7ecf8e] text-sm tracking-widest uppercase overflow-hidden transition-colors duration-500 hover:text-[#0a1a0f] w-full md:w-auto"
+                  disabled={isSubmitting}
+                  className="group cursor-pointer relative inline-flex items-center justify-center gap-3 px-8 py-4 bg-transparent border border-[#7ecf8e] text-[#7ecf8e] text-sm tracking-widest uppercase overflow-hidden transition-colors duration-500 hover:text-[#0a1a0f] w-full md:w-auto disabled:opacity-50 disabled:cursor-not-allowed disabled:pointer-events-none"
                 >
                   <span className="absolute inset-0 bg-[#7ecf8e] translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out" />
                   <span className="relative z-10">
-                    {language === "es" ? "Enviar mensaje" : "Send message"}
+                    {isSubmitting
+                      ? (language === "es" ? "Enviando..." : "Sending...")
+                      : (language === "es" ? "Enviar mensaje" : "Send message")}
                   </span>
                 </button>
               </div>

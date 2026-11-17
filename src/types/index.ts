@@ -37,17 +37,6 @@ export type ContactItemProps = {
     href: string;
 }
 
-export type SendMailData = {
-    name: string;
-    surname: string;
-    email: string;
-    message: string;
-}
-
-export type SendMailResponse = {
-    message: string;
-}
-
 export type ModalProps = {
     language: string
     messageES: string;
