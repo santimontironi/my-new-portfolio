@@ -2,6 +2,14 @@ const projectsData = (language: string) => {
   if (language === 'es') {
     return [
       {
+        projectImage: '/images/proyectoGarsonicV2.png',
+        projectTitle: "Garsonic V2",
+        projectDescription: "Versión mejorada de Garsonic, plataforma musical estilo Spotify con roles de Artista y Usuario. Nueva UI y UX, gestión de canciones, playlists y reproductor, con backend desarrollado en NestJS.",
+        githubUrl: 'https://github.com/santimontironi/garsonic-music-app',
+        githubIcon: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
+        deployUrl: 'https://garsonic-frontend.vercel.app/'
+      },
+      {
         projectImage: '/images/proyectoFrigorifico.png',
         projectTitle: "Frigorifico 5 estrellas",
         projectDescription: "Proyecto para un cliente desarrollado con stack MERN. Que consiste en un frigorífico con catálogo de productos, carrito de compras, realización de pedidos, historiales y panel de administración.",
@@ -102,6 +110,14 @@ const projectsData = (language: string) => {
 
   } else {
     return [
+      {
+        projectImage: '/images/proyectoGarsonicV2.png',
+        projectTitle: "Garsonic V2",
+        projectDescription: "Improved version of Garsonic, a Spotify-like music platform with Artist and User roles. New UI and UX, song, playlist and playback management, with a backend built in NestJS.",
+        githubUrl: 'https://github.com/santimontironi/garsonic-music-app',
+        githubIcon: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
+        deployUrl: 'https://garsonic-frontend.vercel.app/'
+      },
       {
         projectImage: '/images/proyectoFrigorifico.png',
         projectTitle: "Frigorífico 5 estrellas",
