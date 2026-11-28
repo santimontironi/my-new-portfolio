@@ -10,6 +10,14 @@ const projectsData = (language: string) => {
         deployUrl: 'https://garsonic-frontend.vercel.app/'
       },
       {
+        projectImage: '/images/proyectoRoadmap.png',
+        projectTitle: "The Developer Kingdom - Roadmap FullStack",
+        projectDescription: "Roadmap interactivo para aprender Full Stack desde cero, ambientado en una isla medieval 3D. Cada región es una etapa y cada edificio una tecnología, con teoría, código y ejercicios.",
+        githubUrl: 'https://github.com/santimontironi/roadmap-fullstack',
+        githubIcon: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
+        deployUrl: 'https://kingdom-developer.netlify.app/'
+      },
+      {
         projectImage: '/images/proyectoFrigorifico.png',
         projectTitle: "Frigorifico 5 estrellas",
         projectDescription: "Proyecto para un cliente desarrollado con stack MERN. Que consiste en un frigorífico con catálogo de productos, carrito de compras, realización de pedidos, historiales y panel de administración.",
@@ -117,6 +125,14 @@ const projectsData = (language: string) => {
         githubUrl: 'https://github.com/santimontironi/garsonic-music-app',
         githubIcon: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
         deployUrl: 'https://garsonic-frontend.vercel.app/'
+      },
+      {
+        projectImage: '/images/proyectoRoadmap.png',
+        projectTitle: "The Developer Kingdom - Roadmap FullStack",
+        projectDescription: "Interactive roadmap for learning Full Stack from scratch, set on a 3D medieval island. Each region is a stage and each building a technology, with theory, code and exercises.",
+        githubUrl: 'https://github.com/santimontironi/roadmap-fullstack',
+        githubIcon: "https://img.icons8.com/?size=100&id=12599&format=png&color=ffffff",
+        deployUrl: 'https://kingdom-developer.netlify.app/'
       },
       {
         projectImage: '/images/proyectoFrigorifico.png',
